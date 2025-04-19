@@ -2171,7 +2171,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 45%;
+			max-width: 30%;
 		}
 
 			.image.left img, .image.right img {
@@ -2947,7 +2947,7 @@ input, select, textarea {
 				border-radius: 0;
 				display: block;
 				position: relative;
-				width: 45%;
+				width: 30%;
 			}
 
 				.spotlights > section > .image img {
