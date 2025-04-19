@@ -3704,6 +3704,22 @@ input, select, textarea {
 			}
 
 		}
+/* Custom contact layout - solo per pagine con .custom-contact */
+
+.custom-contact .split {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 2em;
+	flex-wrap: wrap; /* per responsive */
+}
+
+.custom-contact .split > section {
+	flex: 1;
+	min-width: 200px;
+	padding: 2em 1em;
+	border-top: none !important; /* rimuove la linea orizzontale */
+}
 
 /* Footer */
 
