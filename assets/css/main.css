@@ -3808,7 +3808,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		pointer-events: none;
-		background: rgba(36, 41, 67, 0.9);
+		background: rgba(255, 255, 255, 0.9); /* 36, 41, 67 */
 		box-shadow: none;
 		height: 100%;
 		left: 0;
@@ -3966,6 +3966,7 @@ body, #wrapper, #main, #header, #footer {
   background-color: #f2f2f2 !important;  /* sfondo chiaro */
   color: #222222 !important;              /* testo scuro */
 }
+
 
 
 
