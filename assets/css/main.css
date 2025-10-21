@@ -3960,3 +3960,17 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+/* color */
+body, h1, h2, h3, h4, h5, h6 {
+		color: #222222 !important; /* colore testo */
+}
+
+h1::after,
+h2::after,
+h3::after,
+h4::after,
+h5::after,
+h6::after {
+    background-color: #222222 !important; /* colore della linea */
+}
+
