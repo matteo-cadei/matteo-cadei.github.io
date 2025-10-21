@@ -3962,10 +3962,9 @@ input, select, textarea {
 		}
 
 /* Forza colori e bordi */
-body, #wrapper, #main, #header, #footer {
+body, h1, h2, h3, h4, h5, h6, p, a, li, label, span, #wrapper, #main, #header, #footer {
   background-color: #f2f2f2 !important;  /* sfondo chiaro */
   color: #222222 !important;              /* testo scuro */
-  border-color: #222222 !important;       /* linee dei contenitori */
 }
 
 /* Forza tutte le linee a #222222 */
@@ -3984,3 +3983,4 @@ h1, h2, h3, h4, h5, h6 {
 hr {
   border: 1px solid #222222 !important;
 }
+
