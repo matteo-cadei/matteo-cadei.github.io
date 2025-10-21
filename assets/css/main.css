@@ -3961,13 +3961,15 @@ input, select, textarea {
 			visibility: visible;
 		}
 
-/* Forza colori*/
+/* Forza colori e bordi */
 body, #wrapper, #main, #header, #footer {
-  background-color: #f2f2f2 !important;
-  color: #222222 !important; 
+  background-color: #f2f2f2 !important;  /* sfondo chiaro */
+  color: #222222 !important;              /* testo scuro */
+  border-color: #222222 !important;       /* linee dei contenitori */
 }
+
 /* Linee sotto i titoli principali */
 h1, h2, h3, h4, h5, h6 {
-  border-bottom: 1px solid #222222 !important;
+  border-bottom: 1px solid #222222 !important; /* linea sotto il titolo */
 }
 
