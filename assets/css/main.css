@@ -3961,6 +3961,8 @@ input, select, textarea {
 			visibility: visible;
 		}
 
-body, h1, h2, h3, h4, h5, h6, p, a, li, label, span {
-  color: #222 !important;
+/* Forza colori*/
+body, #wrapper, #main, #header, #footer {
+  background-color: #f2f2f2 !important;
+  color: #222222 !important; 
 }
