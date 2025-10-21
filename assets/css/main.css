@@ -3583,7 +3583,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		background-color: #f7f7f7;
 	}
 
 		#main > * {
@@ -3960,4 +3960,5 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
 
