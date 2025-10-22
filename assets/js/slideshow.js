@@ -1,25 +1,25 @@
 document.addEventListener("DOMContentLoaded", function() {
-	const slides = document.querySelectorAll(".slideshow-container .slide");
-	let currentIndex = 0;
+  const slides = document.querySelectorAll(".slideshow-container .slide");
+  let currentIndex = 0;
 
-	function showSlide(index) {
-		slides.forEach(slide => slide.classList.remove("active"));
-		slides[index].classList.add("active");
-	}
+  function showSlide(index) {
+    slides.forEach(slide => slide.classList.remove("active"));
+    slides[index].classList.add("active");
+  }
 
-	function nextSlide() {
-		currentIndex = (currentIndex + 1) % slides.length;
-		showSlide(currentIndex);
-	}
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % slides.length;
+    showSlide(currentIndex);
+  }
 
-	function prevSlide() {
-		currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-		showSlide(currentIndex);
-	}
+  function prevSlide() {
+    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+    showSlide(currentIndex);
+  }
 
-	document.querySelector(".next").addEventListener("click", nextSlide);
-	document.querySelector(".prev").addEventListener("click", prevSlide);
+  document.querySelector(".next").addEventListener("click", nextSlide);
+  document.querySelector(".prev").addEventListener("click", prevSlide);
 
-	// Cambia immagine ogni 5 secondi
-	setInterval(nextSlide, 5000);
+  // auto change every 5 seconds
+  setInterval(nextSlide, 5000);
 });
