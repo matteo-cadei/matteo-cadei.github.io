@@ -4001,5 +4001,12 @@ button.next:after,
     opacity: 1 !important;
 }
 
+/* Forza tutti gli SVG inline nei background a colore #222222 */
+#header nav a[href="#menu"]:before,
+#header nav a[href="#menu"]:after,
+a.button.next:before,
+a.button.next:after {
+    filter: brightness(0) saturate(100%) invert(13%) sepia(0%) saturate(0%) hue-rotate(203deg) brightness(13%) contrast(88%) !important;
+}
 
 
