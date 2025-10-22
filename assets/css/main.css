@@ -3991,7 +3991,7 @@ button.next,
     box-shadow: inset 0 0 0 2px #222222 !important; /* bordo */
 }
 
-/* Freccia dentro il pulsante next */
+/* pulsanti */
 input[type="submit"].next:after,
 input[type="reset"].next:after,
 input[type="button"].next:after,
@@ -4001,10 +4001,9 @@ button.next:after,
     opacity: 1 !important;
 }
 
-/* Forza tutti gli SVG inline nei background a colore #222222 */
-#header nav a[href="#menu"]:after,
-a.button.next:after {
-    filter: brightness(0) saturate(100%) invert(13%) sepia(0%) saturate(0%) hue-rotate(203deg) brightness(13%) contrast(88%) !important;
+#header nav a[href="#menu"]:before,
+#header nav a[href="#menu"]:after {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='32' viewBox='0 0 24 32' preserveAspectRatio='none'%3E%3Cstyle%3Eline { stroke-width: 2px; stroke: %23222222 !important; }%3C/style%3E%3Cline x1='0' y1='11' x2='24' y2='11' /%3E%3Cline x1='0' y1='21' x2='24' y2='21' /%3E%3Cline x1='0' y1='16' x2='24' y2='16' /%3E%3C/svg%3E") !important;
 }
 
 
