@@ -3974,3 +3974,10 @@ h6::after {
     background-color: #222222 !important; /* colore della linea */
 }
 
+body,
+#wrapper,
+#main,
+#header,
+#footer {
+    background-color: #f7f7f7 !important;
+}
