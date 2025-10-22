@@ -3961,7 +3961,7 @@ input, select, textarea {
 			visibility: visible;
 		}
 /* color */
-body, h1, h2, h3, h4, h5, h6 {
+body, h1, h2, h3, h4, h5, h6, p, a, li, label, span, strong, b {
 		color: #222222 !important; /* colore testo */
 }
 
@@ -3982,31 +3982,7 @@ body,
     background-color: #f7f7f7 !important;
 }
 
-/* Force all buttons to dark text on light background with consistent border */
-input[type="submit"],
-input[type="reset"],
-input[type="button"],
-button,
-.button {
-    background-color: #ffffff !important; /* background forced */
-    color: #222222 !important;           /* text color forced */
-    border: 2px solid #222222 !important; /* border forced */
-}
 
-/* Force hover/active states too */
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-button:hover,
-.button:hover,
-input[type="submit"]:active,
-input[type="reset"]:active,
-input[type="button"]:active,
-button:active,
-.button:active {
-    background-color: #e0e0e0 !important; /* light grey on hover/active */
-    color: #222222 !important;
-    border-color: #222222 !important;
-}
+
 
 
