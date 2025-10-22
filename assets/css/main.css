@@ -2786,15 +2786,15 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.10;
+				opacity: 0.18;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
-				background-color: rgba(0, 0, 0, 0.55);
+				background-color: rgba(0, 0, 0, 0.85) !important;;
 			}
 
 			.tiles article:after {
-				background-color: rgba(220, 220, 220, 0.40);
+				background-color: rgba(220, 220, 220, 0.37);
 				content: '';
 				display: block;
 				height: 100%;
@@ -4006,6 +4006,7 @@ button.next:after,
 #header nav a[href="#menu"]:after {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='32' viewBox='0 0 24 32' preserveAspectRatio='none'%3E%3Cstyle%3Eline { stroke-width: 2px; stroke: %23222222 !important; }%3C/style%3E%3Cline x1='0' y1='11' x2='24' y2='11' /%3E%3Cline x1='0' y1='21' x2='24' y2='21' /%3E%3Cline x1='0' y1='16' x2='24' y2='16' /%3E%3C/svg%3E") !important;
 }
+
 
 
 
