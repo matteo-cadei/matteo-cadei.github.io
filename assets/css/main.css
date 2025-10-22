@@ -3409,7 +3409,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.15; /*0.45*/
+			opacity: 0.80; /*0.45*/
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -4000,5 +4000,6 @@ button.next:after,
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='24' viewBox='0 0 36 24'%3E%3Cstyle%3Eline { stroke: %23222222; stroke-width: 2px; }%3C/style%3E%3Cline x1='0' y1='12' x2='34' y2='12' /%3E%3Cline x1='25' y1='4' x2='34' y2='12.5' /%3E%3Cline x1='25' y1='20' x2='34' y2='11.5' /%3E%3C/svg%3E") !important;
     opacity: 1 !important;
 }
+
 
 
